@@ -2,11 +2,22 @@
 
 A modern, high-performance music visualizer built with React and TypeScript. Experience your music through beautiful, responsive visualizations that react to audio in real-time.
 
-![HarmonyViz Demo](public/harmony-icon.svg)
+![HarmonyViz Logo](public/harmony-icon.svg)
 
-## Features
+## Screenshots
 
 ### Visualization Modes
+
+| Mode      | Preview                                           | Description                                        |
+| --------- | ------------------------------------------------- | -------------------------------------------------- |
+| Bars      | ![Bars Mode](docs/screenshots/bars.png)           | Classic frequency bars with dynamic coloring       |
+| Wave      | ![Wave Mode](docs/screenshots/wave.png)           | Smooth wave visualization with mirror effect       |
+| Particles | ![Particles Mode](docs/screenshots/particles.png) | Interactive particle system that responds to audio |
+| Spectrum  | ![Spectrum Mode](docs/screenshots/spectrum.png)   | Smooth spectrum visualization with bezier curves   |
+
+### Features
+
+#### Visualization Modes
 
 - **Bars**: Classic frequency bars with dynamic coloring
 - **Wave**: Smooth wave visualization with mirror effect
@@ -17,7 +28,7 @@ A modern, high-performance music visualizer built with React and TypeScript. Exp
 - **Pulse**: Dynamic pulsing circles with frequency dots
 - **Rings**: Concentric rings that react to audio frequencies
 
-### Customization Options
+#### Customization Options
 
 - **Sensitivity Control**: Adjust how responsive the visualizer is to audio
 - **Intensity Control**: Modify the overall effect strength
@@ -27,7 +38,7 @@ A modern, high-performance music visualizer built with React and TypeScript. Exp
   - Neon: Bright, vibrant colors with glow effects
   - Pastel: Soft, muted colors
 
-### Additional Features
+#### Additional Features
 
 - Fullscreen mode support
 - High DPI display support
